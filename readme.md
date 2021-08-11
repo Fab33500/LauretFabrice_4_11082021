@@ -20,8 +20,6 @@ La premiere étape est de réaliser Analyse de l’état actuel de SEO du site p
         * Réaliser une recherche des bonnes pratiques en développement web
         * Optimiser le référencement d'un site web
 
-La chouette agence
-
-![La chouette agence ](https://fab33500.github.io/LauretFabrice_4_11082021/)
+### Lien vers le site [La chouette agence](https://fab33500.github.io/LauretFabrice_4_11082021/)
 
 ![La chouette agence - Site d'origine](./img/site-original.png)
