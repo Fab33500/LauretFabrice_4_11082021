@@ -9,12 +9,12 @@
 
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
-		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-		<script src="./js/jquery-2.1.0.min.js"></script>
-		<script src="./js/bootstrap.min.js"></script>
-		<script src="./js/blocs.min.js"></script>
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
 		<script src="./js/jqBootstrapValidation.js"></script>
 		<script src="./js/formHandler.js"></script>
 		<title>Contactez La chouette Agence - Entreprise Web Design à Lyon</title>
@@ -27,7 +27,7 @@
 		<!-- Principal conteneur -->
 		<div class="page-container">
 			<!-- bloc-0 -->
-			<div class="bloc bgc-white l-bloc" id="bloc-0">
+			<header class="bloc bgc-white l-bloc" id="bloc-0">
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
@@ -49,7 +49,7 @@
 						</div>
 					</nav>
 				</div>
-			</div>
+			</header>
 			<!-- bloc-0 END -->
 
 			<!-- bloc-6 -->
@@ -69,26 +69,26 @@
 			<!-- bloc-6 END -->
 
 			<!-- bloc-7 -->
-			<div class="bloc bgc-white l-bloc" id="bloc-7">
+			<main class="bloc bgc-white l-bloc" id="bloc-7">
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
 							<p>les champs<span class="star"> * </span>sont obligatoires</p>
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1">
 								<div class="form-group">
-									<label> Nom <span class="star">*</span></label>
+									<label for="name"> Nom <span class="star">*</span></label>
 									<input id="name" class="form-control" placeholder="Votre Nom" required />
 								</div>
 								<div class="form-group">
-									<label> Adresse email<span class="star">*</span> </label>
+									<label for="email"> Adresse email<span class="star">*</span> </label>
 									<input id="email" class="form-control" type="email" placeholder="Votre email" required />
 								</div>
 								<div class="form-group">
-									<label> Comment nous avez-vous connu <span class="star">*</span>? </label>
+									<label for="input_504"> Comment nous avez-vous connu <span class="star">*</span>? </label>
 									<input class="form-control" type="text" placeholder="Internet, pub, radio...." required id="input_504" />
 								</div>
 								<div class="form-group">
-									<label> Brief de votre projet (Ajoutez autant de détails que nécessaire) <span class="star">*</span></label
+									<label for="message"> Brief de votre projet (Ajoutez autant de détails que nécessaire) <span class="star">*</span></label
 									><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Votre message" required></textarea>
 								</div>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
@@ -99,7 +99,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</main>
 			<!-- bloc-7 END -->
 
 			<!-- ScrollToTop Button -->
@@ -107,7 +107,7 @@
 			<!-- ScrollToTop Button END-->
 
 			<!-- Footer - bloc-8 -->
-			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+			<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 				<div class="container bloc-sm">
 					<div class="row">
 						<div class="col-sm-12">
@@ -115,29 +115,35 @@
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+										<a class="social" title="Visitez notre espace twitter" href="https://twitter.com" aria-label="acceder à txitter"><span class="fa fa-twitter icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+										<a class="social" title="Visitez notre espace facebook" href="https://www.facebook.com/" aria-label="acceder à facebook"
+											><span class="fa fa-facebook icon-md"></span
+										></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+										<a class="social" title="Visitez notre espace dribble" href="https://dribbble.com/" aria-label="acceder à dribbble"
+											><span class="fa fa-dribbble icon-md"></span
+										></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+										<a class="social" title="Visitez notre espace instagram" href="https://www.instagram.com/" aria-label="acceder à instagram"
+											><span class="fa fa-instagram icon-md"></span
+										></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</footer>
 			<!-- Footer - bloc-8 END -->
 		</div>
 		<!-- Principal conteneur END -->

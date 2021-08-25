@@ -375,7 +375,7 @@ a:hover {
 	margin-left: 50px;
 }
 .star {
-	color: red;
+	color: #ad0000;
 }
 
 @media (min-width: 768px) {
