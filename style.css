@@ -753,7 +753,7 @@ h4 {
 }
 
 .white {
-	color: #ffffff !important;
+	color: #080808 !important;
 	font-size: 16px;
 }
 
@@ -800,13 +800,17 @@ h4 {
 
 .btn-atomic-tangerine {
 	background: #f3976c;
-	color: #ffffff !important;
+	color: #080808 !important;
 	width: 200px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-top: 20px;
 }
 
 .btn-atomic-tangerine:hover {
 	background: #c27956 !important;
-	color: black !important;
+	color: #ffffff !important;
 }
 
 .ltc-white {
