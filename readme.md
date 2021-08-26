@@ -22,4 +22,6 @@ La premiere étape est de réaliser Analyse de l’état actuel de SEO du site p
 
 ### Lien vers le site [La chouette agence](https://fab33500.github.io/LauretFabrice_4_11082021/)
 
+### Lien vers le site [La chouette agence, site initial](https://fab33500.github.io/LauretFabrice-initial_4_11082021/)
+
 ![La chouette agence - Site d'origine](./img/site-original.png)
