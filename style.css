@@ -797,6 +797,9 @@ h4 {
 	font-weight: 600;
 	font-size: 25px;
 }
+.txt-hero {
+	color: black !important;
+}
 
 .btn-atomic-tangerine {
 	background: #f3976c;
